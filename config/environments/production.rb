@@ -79,4 +79,6 @@ Rails.application.configure do
   # Required for Heroku
   # Note to set this to your actual host
   config.action_mailer.default_url_options = { :host => 's5-pinteresting.herokuapp.com' }
+  
+  Paperclip.options[:command_path] = '/opt/ImageMagick/bin' 
 end
