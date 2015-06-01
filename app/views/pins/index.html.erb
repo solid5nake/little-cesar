@@ -19,6 +19,10 @@
           <% end %>
         </div><!-- panel-body -->
       </div><!-- .box -->    
-    <% end %>      
+    <% end %>  
   </div><!-- #pins -->
+  <div class="center">
+    <%= will_paginate @pins, renderer: BootstrapPagination::Rails %>
+  </div>
 </div><!-- .jumbotron -->
+
