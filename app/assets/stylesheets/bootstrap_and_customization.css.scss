@@ -6,6 +6,7 @@ $navbar-inverse-link-hover-color: #bdc3c7;
 $navbar-inverse-brand-hover-color: #bdc3c7;
 $brand-primary: #1abc9c;
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
 body {
@@ -16,6 +17,10 @@ body {
 .navbar-brand {
   font-family: 'Pacifico', cursive;
   font-size: 25px;
+}
+
+.navbar-right {
+  width: 500px;
 }
 
 .jumbotron {
@@ -63,6 +68,12 @@ body {
   h1 {
     letter-spacing: -2px; 
   }
+}
+
+.panel-body {
+  p {
+    font-size: 100%;    
+  } 
 }
 
 
