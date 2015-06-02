@@ -20,11 +20,10 @@ body {
 }
 
 .navbar-right {
-  width: 500px;
+  width: 480px;
 }
 
 .jumbotron {
-  font-weight: bold;
   position: relative;
   background: none;
   .overlay {
@@ -37,6 +36,9 @@ body {
     background: #ecf0f1;
     opacity: 0.70;
     position: absolute;
+  }
+  p {
+    font-size: 18px;
   }
   h1 {
     letter-spacing: -4px;
@@ -68,12 +70,33 @@ body {
   h1 {
     letter-spacing: -2px; 
   }
+  h2 {
+    letter-spacing: -2px;
+  }
+}
+
+.panel-heading {
+  background: #F7803C;
 }
 
 .panel-body {
   p {
     font-size: 100%;    
-  } 
+  }
+}
+
+.btn-red {
+  .btn-primary {
+    background: #e74c3c;
+    border-color: #c0392b;
+  }
+}
+
+.btn-red:hover {
+  .btn-primary {
+    background: #a63529;
+    border-color: #8d2d23;
+  }
 }
 
 .center {
